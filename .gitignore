@@ -1,0 +1,7 @@
+build/
+install/
+log/
+.claude/
+calib_result/left-*.png
+__pycache__/
+*.pyc

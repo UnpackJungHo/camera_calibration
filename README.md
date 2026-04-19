@@ -1,4 +1,4 @@
-# box_vision
+# Camera_calibration
 
 ROS2 Jazzy 기반 USB 카메라 드라이버 및 캘리브레이션 워크스페이스.  
 `/image/raw` 토픽 발행, 카메라 파라미터 고정, 캘리브레이션 결과 검증까지 포함합니다.
@@ -9,7 +9,7 @@ ROS2 Jazzy 기반 USB 카메라 드라이버 및 캘리브레이션 워크스페
 
 - OS: Ubuntu 24.04
 - ROS2: Jazzy
-- 카메라: Logitech C270 HD Webcam (`/dev/video48`)
+- 카메라: Innomaker-U20CAM-720P
 
 ---
 
@@ -46,7 +46,7 @@ USB 카메라가 잡히는 디바이스 번호를 확인합니다.
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-cd ~/box_vision
+cd ~/camera_calibration
 colcon build
 source install/setup.bash
 ```
